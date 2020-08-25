@@ -12,7 +12,6 @@
 removePost();
 setInterval(removePost,100)
 function removePost() {
-    console.log('abc');
     //put the name in blocked like this var blocked = ['@example1name', '@example2name', '@example3name'];
     var blocked = [];
     var html = document.getElementsByClassName("feed-posts ng-star-inserted");
